@@ -1,0 +1,26 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+table button {
+    margin: 0 5px;
+}
+
+.chucNang > div {
+    margin: 5px;
+    padding: 10px;
+}
+.chucNang .hienThi {
+    text-align: end;
+}
+.nhapDuLieu .duLieu {
+    display: flex;
+}
+
+.duLieu > div {
+    margin-left: 10px ;
+}
+
+.hidden{
+    display: none;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="b1.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="chucNang">
+        <div class="hienThi">
+            <button class="hThi btn-success">Toàn bộ</button>
+        </div>
+    </div>
+    <table class="table" >
+        <thead>
+            <tr class="info">
+                <th>Id</th>
+                <th>Name</th>
+                <th>Gender</th>
+                <th>Birthday</th>
+                <th>Address</th>
+                <th>PhoneNumber</th>
+                <th>Fix</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+    <div class="chucNang">
+        <div class="nhapDuLieu">
+            <div class="duLieu">
+                <div class="labelAdd form-group">
+                    <label for="fName">Họ và tên</label><br>
+                    <label for="dChi">Địa chỉ</label><br>
+                    <label for="phone">SĐT</label><br>
+                    <label for="bDay">Ngày sinh</label><br>
+                    <label for="gTinh">Giới tính</label><br>
+                </div>
+                <div class="inputAdd form-group">
+                    <input type="text" id="fName"><br>
+                    <input type="text"id="dChi"><br>
+                    <input type="text" id="phone"><br>
+                    <input type="date" id="bDay"><br>
+                    <input name="gender" type="radio" id="Nam">
+                    <label for="Nam">Nam</label>
+                    <input name="gender" type="radio" id="Nu">
+                    <label for="Nu">Nữ</label><br>
+                </div>
+            </div>
+            <button class="btnHTThem btn-primary" style="display: block;">Thêm</button>
+            <button class="btnHTSua btn-warning" style="display: none;">Sửa</button>
+        </div>
+    </div>
+    <script src="b2.js"></script>
+</body>
+</html>
